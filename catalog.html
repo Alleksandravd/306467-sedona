@@ -21,32 +21,33 @@
   </div>
 
     <main>
+      <div class="form-group">
       <form action="#" method="post">
         <div class="infrastructure">
           <h2>Инфраструктура</h2>
-          <p><input type="checkbox" name="Бассейн" id="pool" checked>
+          <p><input type="checkbox" name="бассейн" id="pool" checked>
             <label for="pool">Бассейн</label>
           </p>
 
-          <p><input type="checkbox" name="Парковка" id="parking">
+          <p><input type="checkbox" name="парковка" id="parking">
             <label for="paking">Парковка</label>
           </p>
 
-          <p><input type="checkbox" name="Wi-fi" id="internet">
+          <p><input type="checkbox" name="wi-fi" id="internet">
             <label for="internet">Wi-fi</label>
           </p>
         </div>
 
-          <div class="Type-of-accommodation">
+          <div class="accommodation-type">
             <h2>Тип жилья</h2>
-            <p><input type="checkbox" name="Гостиница" id="hotel" checked>
+            <p><input type="checkbox" name="гостиница" id="hotel" checked>
               <label for="hotel">Гостиница</label>
             </p>
 
-            <p><input type="checkbox" name="Мотель" id="motel" checked>
+            <p><input type="checkbox" name="мотель" id="motel" checked>
               <label for="motel">Мотель</label>
             </p>
-            <p><input type="checkbox" name="Апартаменты" id="apartments" checked>
+            <p><input type="checkbox" name="апартаменты" id="apartments" checked>
               <label for="apartments">Апартаменты</label>
             </p>
           </form>
@@ -65,7 +66,9 @@
         </div>
 
         <button type="submit" class="btn">Показать</button>
+      </div>
 
+      <div class="filter-group">
         <div class="filter-output">
           <div class="filter-output-left"><h2>Найдено:3</h2>
           </div>
@@ -78,63 +81,101 @@
             </ul>
           </div>
         </div>
-
         <div class="up-down">
-
+    <a class="arrows" href="#"></a>
+    <a class="arrows" href="#"></a>
         </div>
+      </div>
 
-        <section class="hotels-list">
-        <div class="list-of-hotels-by-filter">
+      <section class="hotels-list">
           <div class="hotels-content">
-          <img alt="Amara resort&spa" width="#" height="#" scr="#">
-          <a href="#" class="name">Amara resort&spa</a>
-          <div class="hotel-information"<h2>Гостиница</h2>
+            <div>
+              <img alt="Amara resort&spa" scr="#">
+            </div>
+            <div>
+              <a href="#" class="name">Amara resort&spa</a>
+          <div class="hotel-information">
+            <div>
+          Гостиница
+        </div>
+        <div>
+          от 3500 р.
+        </div>
+      </div>
+        <div>
+          <a href="#">Поподробнее</a>
+          <a href="#">Забронировать</a>
+        </div>
+      </div>
+      <div>
+        <div class="rating"></div>
+          <div>
+            Рейтинг: 8,5
           </div>
-          <h3>от 3500 р.</h3>
-        <div class="hotel-button-info"><a href="#">Поподробнее</a>
-        </div>
-        <div class="hotel-button-reservation"><a href="#">Забронировать</a>
-        </div>
-        <div class="rating">
         </div>
       </div>
 
 
       <div class="hotels-content">
-        <img alt="Desert Qual inn" width="#" height="#" scr="#">
-        <a href="#" class="name">Desert Qual inn</a>
-        <div class="hotel-information"<h2>Мотель</h2></div>
-        <h2>от 2000 р.</h2>
-      </div>
-      <div class="hotel-button-info"><a href="#">Поподробнее</a>
-      </div>
-      <div class="hotel-button-reservation"><a href="#">Забронировать</a>
-      </div>
-      <div class="rating">
-      </div>
-
-      <div class="hotels-content">
-        <img alt="villas at poco diablo" width="#" height="#" scr="#">
-      </div>
-      <div class="hotels-content">
-        <a href="#" class="name">villas at poco diablo</a>
-        <div class="villas at poco diablo"<h2>Апартаменты</h2></div>
-        <h2>от 4000 р.</h2>
-      </div>
-      <div class="hotel-button-info"><a href="#">Поподробнее</a>
-      </div>
-      <div class="hotel-button-reservation"><a href="#">Забронировать</a>
-      </div>
-      <div class="rating">
+        <div>
+          <img alt="Desert Qual inn" scr="#">
+        </div>
+        <div>
+          <a href="#" class="name">Desert Qual inn</a>
+          <div class="hotel-information">
+            <div>
+               Мотель
+             </div>
+             <div>
+              от 2000 р.
+            </div>
+          </div>
+          <div>
+            <a href="#">Поподробнее</a>
+            <a href="#">Забронировать</a>
+          </div>
+        </div>
+      <div class="rating"></div>
+      <div>
+        Рейтинг: 8,9
       </div>
     </div>
+
+
+      <div class="hotels-content">
+        <div>
+          <img alt="villas at poco diablo" scr="#">
+        </div>
+      <div>
+        <a href="#" class="name">villas at poco diablo</a>
+        <div class="hotel-information">
+          <div>
+          Апартаменты
+        </div>
+        <div>
+          от 4000 р.
+        </div>
+      </div>
+      <div>
+        <a href="#">Поподробнее</a>
+        <a href="#">Забронировать</a>
+      </div>
+    </div>
+    <div>
+      <div class="rating"></div>
+      <div>
+        Рейтинг: 9,2
+      </div>
+    </div>
+  </div>
+</section>
+
   </main>
 
+  <footer class="main-footer">
+    <p>#visitsedona</p>
 
-    <footer class="main-footer">
-      <p>#visitsedona</p>
-
-      <section class="footer-social">
+    <section class="footer-social">
         <a class="social-btn social-btn-tw" href="#">Твиттер</a>
         <a class="social-btn social-btn-fb" href="#">Фейсбук</a>
         <a class="social-btn social-btn-yout" href="#">Ютуб</a>
@@ -149,31 +190,3 @@
 
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<
