@@ -1,0 +1,19 @@
+body {
+	font-family: "PT Sans";
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+	color: black;
+}
+
+.index-content-title {
+	font-size: 21px;
+	line-height: 26px;
+	color: black;
+}
+
+.text-wrap {
+font-size: 21px;
+line-height: 21px;
+font-weight: bold;
+}
