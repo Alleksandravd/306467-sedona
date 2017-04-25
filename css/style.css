@@ -12,85 +12,119 @@ body {
 	margin-right: auto;
 }
 
-.index-content-title {
-	font-size: 21px;
-	line-height: 26px;
-	color: black;
-}
-
-.text-wrap {
-font-size: 21px;
-line-height: 21px;
-font-weight: bold;
-}
-
-
 .container {
   width: 1200px;
-  margin: 0 auto;
 	background-color: #DCDCDC;
 }
 
 
 
-
 .main-navigation {
-width: auto;
-margin: 0;
-padding: 0;
+width: 1200px;
+height: 50px;
+padding: 20px;
 background-color: #D3D3D3;
 }
 
+.li {
 
-.text{
-	float: left;
-	width: 200px;
-	height: 200px;
-	background-color: #FF7F50;
 }
 
-.promotion-img {
-	float: right;
-	width: 800px;
-	height: 300px;
-}
-
-.features {
-	width: 1200px;
-	height: 100px;
-	padding: 0;
-}
-
-.features-accommodation {
-	float: left;
-	width: 200px;
-	min-height: 200px;
-}
-
-.features-food {
-	float: left;
-	width: 200px;
-	min-height: 300px;
-}
-
-.features-souvenirs {
-	float: right;
-	width: 200px;
-	min-height: 300px;
-	background-color: #8B0000;
-
+.image-block {
+	margin: auto;
 }
 
 .index-content-title {
-	height: 200px;
+  width: 1200px;
+	height: 150px;
 	background-color: #8B0000;
 }
 
 .promotion {
 	width: 400px;
-	height: 256px;
+	height: 200px;
+margin-left: auto;
+}
+
+.promotion-img {
+
+	width: 800px;
+	height: 300px;
+}
+
+.features {
+height: 250px;
+width: 1200px;
+}
+
+.features-accommodation {
+	float: left;
+	width: 400px;
+	height: 250px;
+	background-color: #D2691E;
+}
+
+.features-food {
+	float: left;
+	width: 400px;
+	height: 250px;
+	background-color: #D2B48C;
+}
+
+.features-souvenirs {
+	float: left;
+	width: 400px;
+	height: 250px;
+	background-color: #FFD700;
+}
+
+.promotion-img-del {
+	float: left;
+	width: 800px;
+	height: auto;
+
+}
+
+.text-devil {
+	float: right;
+	width: 400px;
+	height: 255px;
 	background-color: #FF7F50;
 }
+
+.text-pl {
+	float: left;
+	width: 400px;
+	height: 250px;
+	background-color: #7FFF00;
+}
+
+.text-dr {
+	float: right;
+	width: 400px;
+	height: 250px;
+	background-color: #00FA9A;
+}
+
+.text-tr {
+	float: right;
+	width: 400px;
+	height: 250px;
+	background-color: #00CED1;
+}
+
+.text-desk {
+height: 200px;
+width: 1200px;
+background-color: #9370DB;
+}
+
+.form {
+height: 400px;
+width: 500px;
+background-color: #DDA0DD;
+}
+
 
 .footer {
   clear: both;
