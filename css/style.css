@@ -124,25 +124,27 @@ display: inline-block;
 
 .hotels-content {
 	float: left;
-	width: 1050px;
+	width: 1200px;
+	height: 150px;
 }
 
-.hotel-information {
-	display: inline-block;
-}
-
-.hotel-information .name-house {
-float: left;
-width: 200px;
-}
-
-.hotel-information .price-house {
+.hotels-content .name-q {
 	float: left;
-	width: 200px;
+	width: 150px;
 }
 
+.hotels-content .name-house {
+float: left;
 
-.hotels-content .rating {
+}
+
+.hotels-content .price-house {
+	float: left;
+	width: 50px;
+
+}
+
+.hotels-content .zifri {
 	float: right;
-	width: 150px;
+
 }
