@@ -11,3 +11,126 @@ body {
 width: 1200px;
 margin: 0 auto;
 }
+
+.main-navigation li {
+  display: inline-block;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.promotion .text {
+	float: left;
+	width: 400px;
+}
+
+.promotion .promotion-img {
+	float: right;
+	width: 800px;
+}
+
+.features .features-accommodation {
+	display: inline-block;
+}
+
+ .features  .features-food {
+	 display: inline-block;
+ }
+
+ .features .features-souvenirs {
+	 display: inline-block;
+ }
+
+.promotion-features .promotion-img-del{
+	float: left;
+	width: 800px;
+}
+
+ .promotion-features .text-devil {
+	float: right;
+	width: 400px;
+ }
+
+.promotion-advantages .text-pl {
+	display: inline-block;
+}
+
+.promotion-advantages .text-dr {
+	display: inline-block;
+}
+
+.promotion-advantages .text-tr {
+	display: inline-block;
+}
+
+.main-footer p {
+	float: left;
+	width: 400px;
+}
+
+.main-footer .footer-social {
+	float: left;
+	width: 400px;
+}
+
+.main-footer .footer-copyright {
+	float: right;
+	width: 400px;
+}
+
+.form-group .infrastructure {
+	float: left;
+	width: 400px;
+}
+
+.form-group .accommodation-type {
+	float: left;
+	width: 400px;
+}
+
+.form-group .price-day {
+	float: right;
+	width: 400px;
+}
+
+.filter-group .filter-output-left {
+	float: left;
+	width: 400px;
+}
+
+.filter-group .filter-output-center {
+	float: left;
+	width: 400px;
+}
+
+.filter-group .filter-output-center li{
+display: inline-block;
+}
+
+.filter-group .up-down {
+	float: right;
+	width: 400px;
+}
+
+.hotels-content {
+	float: left;
+	width: 1050px;
+}
+
+
+.hotels-content .hotel-information {
+	float: left;
+	width: 1050px;
+}
+.name-house {
+	float: left;
+	width: 200px;
+}
+
+.rating {
+	float: right;
+	width: 150px;
+}
