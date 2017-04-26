@@ -96,6 +96,12 @@ margin: 0 auto;
 	width: 400px;
 }
 
+.filter-group {
+	float: left;
+	width: 1200px;
+	height: 100px;
+}
+
 .filter-group .filter-output-left {
 	float: left;
 	width: 400px;
@@ -115,22 +121,28 @@ display: inline-block;
 	width: 400px;
 }
 
+
 .hotels-content {
 	float: left;
 	width: 1050px;
 }
 
-
-.hotels-content .hotel-information {
-	float: left;
-	width: 1050px;
+.hotel-information {
+	display: inline-block;
 }
-.name-house {
+
+.hotel-information .name-house {
+float: left;
+width: 200px;
+}
+
+.hotel-information .price-house {
 	float: left;
 	width: 200px;
 }
 
-.rating {
+
+.hotels-content .rating {
 	float: right;
 	width: 150px;
 }
