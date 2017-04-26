@@ -135,16 +135,25 @@ display: inline-block;
 
 .hotels-content .name-house {
 float: left;
-
+width: 100px;
 }
 
 .hotels-content .price-house {
 	float: left;
 	width: 50px;
-
 }
 
-.hotels-content .zifri {
-	float: right;
+.name-w {
+	float: left;
+	width: 150px;
+}
 
+.hotel-information {
+	float: left;
+	width: 150px;
+}
+
+.rating-q {
+	float: right;
+	width: 100px;
 }
