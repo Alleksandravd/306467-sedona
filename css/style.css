@@ -44,10 +44,8 @@ body {
   width: 240px;
   float: left;
   padding-top: 21px;
-
   background-color: #fff;
 	padding-left: 50px;
-
 }
 
 .logo {
@@ -91,10 +89,15 @@ body {
 
 .wrap {
 	width: 1200px;
-	height: 507px;
+	height: 508px;
 	margin: 0 auto 80px;
 }
 
+.wrap .bar {
+	width: 1200px;
+	height: 507px;
+	margin-top: -12px;
+}
 
 .head-sm {
 	font-size: 21px;
@@ -396,11 +399,22 @@ line-height: 26px;
 	min-height: 84px;
 }
 
+.form-group {
+	height: 215px;
+	background-image: url("../img/back.jpg");
+	background-repeat: no-repeat;
+	background-size: 110%;
+	background-position: 0% 20%;
+}
+
 
 .form-group .infrastructure {
 	float: left;
 	width: 400px;
+	display: inline-block;
+	vertical-align: top;
 }
+
 
 .form-group .accommodation-type {
 	float: left;
@@ -420,23 +434,92 @@ line-height: 26px;
 
 .filter-group .filter-output-left {
 	float: left;
-	width: 400px;
+	width: 200px;
 }
+
+.filter-output {
+height: 87px;
+border-bottom: 1px solid #F2F2F2;
+background: #ffffff;
+}
+
+
+.filter-output-left h2 {
+	display: inline-block;
+	margin-left: 64px;
+	margin-top: 30px;
+}
+
 
 .filter-group .filter-output-center {
 	float: left;
 	width: 400px;
 }
 
+.filter-output-center {
+	font-size: 12px;
+	font-family: "PT Sans Regular", sans-serif;
+	font-weight: 400;
+	line-height: 18px;
+	margin-right: 20px;
+	margin-top: 20px;
+	margin-left: -23px;
+}
+
 .filter-group .filter-output-center li{
 display: inline-block;
+list-style: none;
+margin: 0;
+padding: 0;
+}
+
+.sort {
+	margin: 0;
+	padding: 0;
+}
+
+.filter-output-center a {
+	font-size: 12px;
+	font-family: "PT Sans Regular", sans-serif;
+	font-weight: 400;
+	line-height: 18px;
+	text-decoration: none;
+	border-bottom: 1px dotted #81B3D2;
+	color: #C3C3C3;
+	margin-right: 12px;
 }
 
 .filter-group .up-down {
 	float: right;
 	width: 400px;
+	margin: 0;
+	padding: 0;
+	position: relative;
 }
 
+.up-down .arrows-v {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 5px 10px;
+	border-color: transparent transparent #81b3d2;
+	font-size: 0;
+	position: absolute;
+	top: 5px;
+	right: 21px;
+}
+
+.up-down .arrows-c {
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 10px 5px 0;
+	border-color: #81b3d2 transparent transparent;
+	font-size: 0;
+	position: absolute;
+	top: 5px;
+	right: 0;
+}
 
 .hotels-content {
 	float: left;
